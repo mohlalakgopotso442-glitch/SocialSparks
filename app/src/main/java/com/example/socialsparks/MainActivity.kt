@@ -50,7 +50,8 @@ class MainActivity : ComponentActivity() {
                                     "Afternoon Snack Time" -> "Send a quick 'thinking of you' message"
                                     "Dinner" -> "Call friend or relative for a 5-minute catch-up"
                                     "After Dinner" -> "Leave a thoughtful comment on a friend's post"
-                                    else -> "Invalid input"
+
+                                    else -> "Invalid time of day"
                                 }
                             }
                         ){
